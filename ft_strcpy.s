@@ -9,12 +9,12 @@ incre:
 programme:
 			cmp BYTE[rsi + rax], 0		;while(src[i] != '\0')
 			je exit
-			mov dl, BYTE[rsi + rax]
-			mov	BYTE[rdi + rax], dl
+			mov dl, BYTE[rsi + rax]		;tmp[i] = rsi[i]
+			mov	BYTE[rdi + rax], dl 
 			jne incre
 exit:
-			mov dl,0
-			mov rax,rdi
+			mov dl,0					;dest[i] = '\0'
+			mov rax,rdi					;return dest
 			ret
 
 
