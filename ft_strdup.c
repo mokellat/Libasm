@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mokellat <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mokellat <mokellat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/17 21:18:28 by mokellat          #+#    #+#             */
-/*   Updated: 2019/10/28 23:46:26 by mokellat         ###   ########.fr       */
+/*   Updated: 2021/02/14 09:50:29 by mokellat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+
 
 char	*ft_strdup(const char *src)
 {

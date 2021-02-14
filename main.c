@@ -10,6 +10,7 @@ char		*ft_strcpy(char * dst, const char * src);
 int			ft_strcmp(const char *s1, const char *s2);
 ssize_t		ft_write(int fd, void const *buf, size_t nbyte);
 ssize_t		ft_read(int fd, void *buf, size_t nbyte);
+char 		*ft_strdup(const char *s1);
 int main()
 {
 	char	*dst;
@@ -26,4 +27,6 @@ int main()
 	// fd = open("./ft_strlen.c", O_RDONLY);
 	// printf("%zu\n",read(fd, dst, 100));
 	// printf("%s\n", dst);
+	dst = "hello";
+	printf("%s\n",ft_strdup(dst));
 }
